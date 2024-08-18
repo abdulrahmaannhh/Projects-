@@ -1,16 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Card Design</title>
     <style>
-        body{
+        body {
             background-color: grey;
         }
+
+        .card {
+            background-color: white;
+            width: 194px;
+            height: 344px;
+            border-radius: 7px;
+        }
+
+        .image{
+            padding: 5px;
+        }
+
+        .image img{
+            border-radius: 7px;
+
+        }
+
+        .content{
+            padding: 13px;
+        }
+
+        .content h1{
+            font-size: 19px;
+        }
+         
+        .content p{
+            font-size: 13px;
+        }
     </style>
-</head>         
+</head>
+
 <body>
-    
+    <div class="card">
+
+        <div class="image">
+            <img width="188px" src="https://images.pexels.com/photos/3880179/pexels-photo-3880179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="boat and lake image">
+        </div>
+
+        <div class="capsules">
+
+        </div>
+
+        <div class="content">
+            <h1>ABDUL RAHMAN</h1>
+            <p>Serene waters, a boat glides by, a lone man steering across the calm lake under a golden sky.</p>
+        </div>
+
+    </div>
 </body>
-</html>                 
+
+</html>
